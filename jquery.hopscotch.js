@@ -1,5 +1,5 @@
 /*
- * jquery.hopscotch.js: v1.0:12/4/2014
+ * jquery.hopscotch.js: v1.0.1:21/4/2014
  * http://easyresponsive.com/hopscotch
  * 
  * Copyright 2015 James Ellis-Jones
