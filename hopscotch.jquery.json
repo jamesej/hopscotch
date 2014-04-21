@@ -1,0 +1,32 @@
+{
+    "name": "hopscotch",
+    "title": "jQuery Hopscotch",
+    "description": "Plugin to manage and vary page layout for responsive design",
+    "keywords": [
+        "responsive",
+        "layout"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "James Ellis-Jones"
+    },
+    "maintainers": [
+        {
+            "name": "James Ellis-Jones",
+            "email": "jamesej@outlook.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "EPL-1.0",
+            "url": "http://www.eclipse.org/legal/epl-v10.html"
+        }
+    ],
+    "homepage": "http://www.easyresponsive.com/hopscotch",
+    "docs": "http://www.easyresponsive.com/hopscotch",
+    "download": "http://www.easyresponsive.com/hopscotch",
+    "dependencies": {
+        "jquery": ">=1.5",
+	"jquery-resize": ">=1.1"
+    }
+}
