@@ -13,11 +13,11 @@ Contains two jquery extensions
 .hopscotchLayout(layoutIndex, substituteSelector)
 
 Scans children of jQuery object this is called on and looks for 'data-grid-location' attribute.  This contains a string specifying how this child is positioned in a series of indexed layouts.  The specification for each indexed layout is separated by a semicolon:
-<layout0>;<layout1>;<layout2> etc
+&lt;layout0&gt;;&lt;layout1&gt;;&lt;layout2&gt; etc
 Each layout part specifies a series of coordinates, the first is the row number, the second the column number within that row, the third the row number within that column etc.
-<rowindex>,<colindex>,<innerrowindex>,<innercolindex>,<secondinnerrowindex> etc
+&lt;rowindex&gt;,&lt;colindex&gt;,&lt;innerrowindex&gt;,&lt;innercolindex&gt;,&lt;secondinnerrowindex&gt; etc
 Normally columns are allocated equal percentage space across the row and rows fit the size of their longest column.  This behaviour can be modified by an integer space weighting (defaults to 1) which multiplies the space allocated to that column.
-<colindex>:<space weighting>
+&lt;colindex&gt;:&lt;space weighting&gt;
 
 Also hopscotchLayout will assign values to attributes according to the layoutIndex.  If an element has an attribute:
 data-hs[number]-<attributename>
