@@ -140,7 +140,6 @@
         // Pulls the layout item out of the document so that
         // all child changes are redrawn in one go.
         this.detach();
-        this.empty();
         construct(this, layout, 'col');
         substitute(this, substituteSel, idx);
         this.addClass('hs-container').addClass('hs-outer-container');
